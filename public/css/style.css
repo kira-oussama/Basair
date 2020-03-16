@@ -1,0 +1,267 @@
+body{
+    font-family: 'Amiri', serif;
+    background-color: #eee;
+    color: #0d47a1;    
+}
+
+html,body,#landing-sect{
+    height: 100% !important;
+}
+
+.navbar-brand{
+    color: #0d47a1 !important;
+    transition: all ease .5s;
+}
+
+.nav-item{
+    color: #0d47a1 !important;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.nav-item:hover{
+    color: rgb(26, 26, 26) !important;
+}
+
+#landing-sect{
+    height: 100%;
+    background: url("../images/landing.jpg")no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-color: #fff;
+}
+
+.logo{
+    color: #0d47a1;
+    font-size: 5rem;
+  }
+
+.slogan {
+    position: absolute;
+    text-align: center;
+    top: 15rem;
+    color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 1.4rem;
+  }
+  
+  
+  .thebox{
+    position: absolute;
+    width: 42%;
+    top: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 5rem;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .fa-search{
+        color: white;
+    }
+
+    .button-search{
+        border: none;
+        background-color: #0d47a1 ;
+        padding: 1rem;
+    }
+
+    .input-search{
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        width: 100%;
+        text-align: right;
+        padding: 1rem;
+        color: white;
+        transition: all ease .5s;
+        font-size: 1.3rem;
+    }
+
+    .input-search::placeholder{
+        color: #eee;
+    }
+
+    .input-search:focus{
+        border-bottom: 2px solid #0d47a1;
+    }
+
+    .theboxmobile{
+        position: relative;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .button-search-mobile{
+        width: 100%;
+        border: none;
+        background-color: #0d47a1 ;
+        padding: 1rem;
+    }
+
+    .sidenav{
+        padding: 2rem;
+        font-size: 1rem;
+        color: #0d47a1;
+        float: right;
+        text-align: right;
+        box-shadow: 0px 3px 3px 0px black;
+        width: 20%;
+        height: 90rem;
+    }
+
+    .sidenav h3{
+        color: black;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+    }
+
+    .sidenav ul li{
+        list-style-type: none;
+        margin-bottom: 2rem;
+        font-weight: bolder;
+        color: #0d47a1;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .sidenav ul li a:hover{
+        text-decoration: none;
+    }
+
+    .bestselling{
+        background-color: #0d47a1;
+        text-align: center;
+        color: white;
+        border-top-left-radius: 50rem;
+        border-bottom-left-radius: 50rem;
+        margin-top: 5rem;
+        float: right;
+        z-index: -10;
+      }
+
+    .bestselling h5{
+        padding: 1rem;
+    }
+
+    .mobiletitle{
+        background-color: #0d47a1;
+        padding: 1rem;
+        margin-top: 2rem;
+        color: white;
+        text-align: center;
+      }
+
+    .slider{
+        width: 70%;
+        margin: auto;
+        right: 10%;
+    }
+
+    .slider .card-img-top{
+        height: 10rem;
+    }
+
+    .slider .card{
+        text-align: right;
+        width: 1rem;
+        height: 23rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .slider .btn-primary{
+        background-color: #0d47a1;
+    }
+
+    .break{
+        margin-top: 15rem;
+    }
+
+    .mobile-cards{
+        width: 50%;
+        margin: auto;
+    }
+
+    footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        top: 10rem;
+        width: 100%;
+        padding: 2rem;
+        font-weight: bolder;
+        background-color: white;
+        color: #0d47a1;
+        text-align: center;
+      }
+
+    .theboxforlib{
+        position: relative;
+        top: 10rem;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5rem;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .button-search-lib{
+        border: none;
+        background-color: #0d47a1 ;
+        padding: 1rem;
+        color: white;
+        margin-top: 1rem;
+    }
+
+    .showbooks .card-img-top{
+        height: 10rem;
+    }
+
+    .showbooks .card{
+        width: 80%;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+
+    .resume-section{
+        background-color: rgba(0,0,0,0.5);
+        width: 80%;
+        margin: auto;
+        margin-top: 10rem;
+        color: #0d47a1;
+    }
+
+    .resume-section input,textarea{
+        text-align: right;
+    }
+
+    .soloimage{
+        height: 30rem;
+        width: 10rem;
+    }
+
+    .solotext{
+        text-align: right;
+        color:rgb(19, 19, 19);
+        padding: 2rem;
+    }
+
+    .datailcontainer{
+        margin-top: 20%;
+    }
+
+    

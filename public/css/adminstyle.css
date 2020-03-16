@@ -1,0 +1,90 @@
+body{
+    font-family: 'Amiri', serif;
+    background-color: #eee;
+    color: #0d47a1;
+}
+
+.navbar-brand{
+    font-size: 5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem;
+    color: #0d47a1;
+}
+
+.admin{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username{
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #0d47a1;
+    color: #fff;
+}
+
+.navbar{
+    width: 15%;
+    height: 100%;
+    float: right;
+}
+
+.nav-item{
+    padding: 1rem;
+}
+
+.nav-link{
+    color: #0d47a1;
+}
+
+.nav-link:hover{
+    color: #226bda;
+    font-size: 1.1rem;
+    transition: all ease-in .2s;
+}
+
+.addbookcont{
+    width: 50%;
+    text-align: right;
+    padding: 2rem;
+}
+
+.form-group{
+    text-align: right;
+}
+
+.form-control{
+    text-align: right;
+}
+
+.card{
+    /*width: 20%;*/
+    float: left;
+    margin-right: 2rem;
+    text-align: right;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.card-img-top{
+    height: 10rem;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+.pagination{
+    width: 20%;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msg{
+    color: black !important;
+}
